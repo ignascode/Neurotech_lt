@@ -1,0 +1,12 @@
+Reikia sukurti kelis UI komponentus naudojant React biblioteką:
+1. Node metrics komponentas
+    1.1 Sukurti funkcinį komponentą naudojantis pateiktu maketu "C1.png".
+    1.2 atvaizduoti sugrupuotus duomenis, pagal "status" (etc. "loading", "running") atributą.
+
+2. Cluster Node metrics komponentas
+    2.1 Sukurti funkcinį konteinerinį komponentą gebantį vaizduoti kelis node metrics komponentus.
+    2.2 Komponentas turėtų gebėti gauti duomenis iš pridėto serverio.
+    2.3 Kiekvienam unikaliam "clusterId" raktui sukuriamas Node metrics komponentas.
+    pvz. Cluster A1: RUNNING: 50, LOADING: 2 ... ; Cluster B1:  RUNNING: 2, LOADING: 2, WAITING: 1
+
+Duomenys komponentams turėtų būti pasiekiami iš pridėto serverio "./server" aplanke.

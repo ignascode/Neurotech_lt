@@ -1,0 +1,7 @@
+Siai  2. uzduociai mes prasytume padaryti widget'a, kuris atspindetu kainu grafika.
+
+Reikalavimai:
+	1. Turetum sukurti API serveri, is kurio galetum imti duomenis.
+	2. Kas 1s grafikas turetu atsinaujinti, gaudamas duomenis is API serverio.
+	3. Grafikui gali naudoti papildomas bibliotekas, apribojimu cia nera.
+
